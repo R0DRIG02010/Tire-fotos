@@ -45,8 +45,8 @@ classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models
         } else {
         
             console.log(results);
-            document.getElementById("result_object_name").innerHTML = results[0];
-            document.getElementById ("result_object_accuracy").innerHTML = results[0].confidence.toFix(3);     }
+            document.getElementById("result_object_name").innerHTML = results[0 ].label;
+            document.getElementById ("result_object_accuracy").innerHTML = results[0].confidence.toFixed (3); }
 
 
 
