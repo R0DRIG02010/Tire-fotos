@@ -41,7 +41,7 @@ classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models
     function gotResult(error,results) {
 
         if (error) {
-            console.error(error);
+            console.error(error)
         } else {
         
             console.log(results);
